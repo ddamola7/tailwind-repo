@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-900 text-gray-800">
+    <nav class="bg-slate-950 text-white">
+        <div class="px-4 mx-auto max-w-7xl flex justify-between items-center py-4">
+
+            <a href="" class="text-2xl font-bold">OYINTECH</a>
+
+            <div class="space-x-6 hidden md:flex">
+                <a href="" class="hover:text-blue-500">Services</a>
+                <a href="" class="hover:text-blue-500">About</a>
+                <a href="" class="hover:text-blue-500">Contact</a>
+            </div>
+
+            <button id="menu-btn" class="md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            
+        </div>
+        <div id="mobile-menu" class="bg-gray-900 hidden md:hidden">
+            <a href="" class="block py-2 px-4 hover:bg-green-950">Services</a>
+            <a href="" class="block py-2 px-4 hover:bg-green-950">About</a>
+            <a href="" class="block py-2 px-4 hover:bg-green-950">Contact</a>
+        </div>
+
+    </nav>
+    <header class="bg-gradient-to-r from-blue-500 to-green-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col items-center text-center py-20 sm:px-6 lg:px-8">
+
+            <h1 class="text-4xl md:text-6xl font-bold">We Build Innovative tech Solutions</h1>
+
+            <p class="mt-4 text-lg md:text-xl">From software to Hardware,Training to branding,we handle everything.</p>
+            <a href="" class="mt-6 px-6 py-3 bg-white text-gray-900 rounded-lg font-semibold shadow-md hover:bg-green-950 hover:text-white">Get In Touch</a>
+        </div>
+    </header>
+
+    <section id="Services" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 text-ceenter sm:px-6 lg:px-8 text-center">
+            <h2 class="font-bold text-3xl underline">Our Services</h2>
+
+            <p class="mt-4 text-lg text-green-950">We Offer a Wide Range Of services to cater to all your tech needs.</p>
+
+            <div class="mt-10 gap-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold">Software Development</h3> <i class="fa-brands fa-uncharted"></i>
+                    <p class="mt-4 text-gray-600 ">custom software solutions tailored to your business needs</p>
+                </div>
+
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold">Hard Installations</h3> <i class="fa-brands fa-uncharted"></i>
+                    <p class="mt-4 text-gray-600 ">setting up the right hardware for your operations</p>
+                </div>
+
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold">Tech training</h3> <i class="fa-brands fa-uncharted"></i>
+                    <p class="mt-4 text-gray-600 ">upskill your team with hands-on tech training program</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold">Tech Consulting and Recruitment</h3> <i class="fa-brands fa-uncharted"></i>
+                    <p class="mt-4 text-gray-600 ">Expert guidance and staffing solutions for your tech project.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold">Branding and graphics</h3> <i class="fa-brands fa-uncharted"></i>
+                    <p class="mt-4 text-gray-600 ">Professional branding and graphic design services.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold">End-End services</h3> <i class="fa-brands fa-uncharted"></i>
+                    <p class="mt-4 text-gray-600 ">comprehensive solutions for all your technical needs</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center lg:gap-x-12">
+          <!-- Text Content -->
+          <div class="lg:w-1/2 text-center lg:text-left">
+            <h2 class="text-3xl font-bold">Who We Are</h2>
+            <p class="mt-4 text-lg text-gray-600">
+              Techillionaire Solutions is a one-stop shop for all things tech. Our team of experts is committed to delivering innovative and reliable solutions tailored to your needs.
+            </p>
+            <!-- Anchor Tag -->
+            <div class="mt-6">
+              <a href="#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg text-lg font-semibold shadow-md hover:bg-blue-700 inline-block">
+                Learn More
+              </a>
+            </div>
+          </div>
+      
+          <!-- Image -->
+          <div class="lg:w-1/2 mt-8 lg:mt-0">
+            <img src="damola face.jpg " alt="Tech Solutions" class="rounded-full shadow-md h-60">
+          </div>
+        </div>
+      </section>
+
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 text-center sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold">Get In Touch</h2>
+
+            <p class="mt-4 text-large text-gray-600">Lets Build something great together</p>
+
+            <form action="" class="mt-8 max-w-3xl mx-auto">
+                <div class="gap-6 grid grid-cols-1 sm:grid-cols-2">
+                    <input type="text" placeholder="name..."class="px-4 py-3 rounded-lg w-full border">
+                    <input type="Email" placeholder="Email..."class="px-4 py-3 rounded-lg w-full border">
+                </div>
+
+                <textarea name="" id="" placeholder="Your message" class="mt-6 px-4 py-3 rounded-lg w-full border"></textarea>
+                <button class="mt-6 py-6 bg-purple-600 text-white rounded-lg text-large font-semibold shadow-md hover:bg-green-700">Send message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-6 ">
+        <div class="max-w-7xl mx-auto px-4 text-center sm:px-8 lg:px-8">
+            <p>&copy; OYINTECH. All Right Reserved</p>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <script>
+        document.getElementById('menu-btn').addEventListener('click',function(){
+            const menu=document.getElementById('mobile-menu')
+            menu.classList.toggle('hidden')
+        })
+    </script>
+    
+</body>
+</html>
